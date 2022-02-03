@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    .container-pai{
+        padding: 0;
+        flex-flow: column wrap;
+        align-content:center ; 
+    }
+  
+}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+  
+}
+body{
+        font-family:'Ubuntu', sans-serif;
+        color: #202449 ;
+        background-color: white;
+    }
+   
+    form{    
+        display: flex;
+        justify-content: center;
+        flex-flow: column nowrap;
+    }
+
+    .menu-login{
+        
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        row-gap: 5px;
+    }
+    .menu-login a{ 
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 1px solid #23254e ;
+        border-radius:10px ;  
+    }
+    .menu-login a:hover{
+        background: #ef6348;
+    }
+    #footerback a{
+    
+        padding: 9px;
+        margin-left: 10px;
+        border: 1px solid #23254e ;
+        background-color: #202449;
+        color: white;
+        border-radius:10px ;  
+    }
+    
+    #footerback a:hover{
+        background: #ef6348;
+    }
+    p{
+        text-decoration: none;
+        font-weight: bolder;
+        color: #23254e ;
+        padding:10px;
+    }
+    a{
+        text-decoration: none;
+        font-weight: bolder;
+        color: #23254e ;
+        
+        padding:10px;
+    }
+    .dow{
+        background-color: #43d2b6;
+        border-radius: 10px;
+        color: white;           
+    }
+    .btn{
+        margin: 3% auto;
+        font-family:'Ubuntu', sans-serif;
+        background-color: #202449;
+        border-radius: 10px;
+        font-weight: 700;
+        word-spacing: 5px;
+        font-size: 18px;
+        padding:15px 35px 15px 35px;
+        outline: none;
+        border: none;    
+    }
+    .btn a{
+        color: white;
+    }
+    .btn:hover{
+        background: #ef6348;       
+    }
+
+    .input{
+        border: none;
+        border-radius: 30px;
+        background-color: #ebe6ec;
+        margin: 2% auto;
+        padding: 15px;
+        text-align: center;
+        font-family:'Ubuntu', sans-serif;
+    }
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------LAYOUT------------------------------------------------------------------------------*/
+
+
+.container-pai{
+    display: flex;
+    
+}
+.container-pai div{
+    display: flex;
+   
+   
+}
+.login{
+    
+    padding: 15px;
+    text-align: center;
+    flex-flow: column nowrap;
+
+    align-content: center;
+    
+}
+.background{
+    padding: 15px;
+    text-align: center;
+    background-image: url(../Projetologin/img/backgrounds/vaca.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    
+    align-items: flex-start;
+    justify-content: center;
+    
+    
+}
+
+.login footer{
+    margin-top: 15%;
+    padding-bottom: 20px;
+    
+}
+#footerback{
+  
+    row-gap: 5px;
+    height: auto;
+    
+    width: auto;
+
+    flex-flow: row wrap;
+   padding: 0;    
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
